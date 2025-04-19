@@ -1,15 +1,12 @@
-# 📦 minggu9_ai_uts
+# 📦 minggu9_ai_uts_kecerdasan buatan
 
 **Minggu 9 Case Based – Searching Kecerdasan Buatan AI menggunakan Python dengan manual.**  
 Seluruh proses dibangun tanpa menggunakan library khusus seperti DEAP, PyGAD, dll.
 
 ---
-
-## 👨‍👩‍👦‍👦 Kelompok
-
+## Kelompok
 - **Irvan Dzawin Nuha – 1302223076**
 - **Joshua Daniel Simanjuntak – 1302220072**
-
 ---
 
 ## 📌 Deskripsi
@@ -36,7 +33,7 @@ Program dibangun dari nol menggunakan Python, dan semua komponen GA diimplementa
 | Panjang Kromosom   | 32 bit (16 bit untuk masing-masing x1 dan x2) |
 | Rentang Nilai      | [-10, 10] untuk x1 dan x2         |
 | Probabilitas Crossover | 0.9 (90%)                    |
-| Probabilitas Mutasi | 1 / panjang_kromosom (≈3.125%)   |
+| Probabilitas Mutasi | 1 / panjang_kromosom (= 3.125%)   |
 | Generasi           | 100 iterasi                      |
 | Seleksi Orang Tua  | Tournament Selection              |
 | Crossover          | One-point Crossover               |
@@ -46,7 +43,6 @@ Program dibangun dari nol menggunakan Python, dan semua komponen GA diimplementa
 ---
 
 ## ⚙️ Alur Proses GA
-
 1. Inisialisasi populasi acak.
 2. Decode kromosom biner ke real \(x1\) dan \(x2\).
 3. Evaluasi fitness setiap individu.
@@ -60,7 +56,6 @@ Program dibangun dari nol menggunakan Python, dan semua komponen GA diimplementa
 ---
 
 ## 💻 Contoh Output
-
 ```txt
 Best Chromosome: 10100101101101101100110101101101
 x1 = -3.214, x2 = 6.902
