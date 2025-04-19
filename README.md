@@ -13,13 +13,8 @@ Seluruh proses dibangun tanpa menggunakan library khusus seperti DEAP, PyGAD, dl
 
 Tugas ini bertujuan untuk meminimalkan fungsi dua variabel berikut dengan pendekatan *Genetic Algorithm (GA)*:
 
-\[
-f(x1, x2) = -\left(\sin(x_1) \cdot \cos(x2) \cdot \tan(x1 + x2) + \frac{3}{4} \cdot \exp(1 - \sqrt{x1^2})\right)
-\]
+![soal minggu 9 ai uts tubes](https://github.com/user-attachments/assets/59843c40-810c-4653-a620-0bc139e7ca20)
 
-Dengan domain:
-- \( -10 \leq x_1 \leq 10 \)
-- \( -10 \leq x_2 \leq 10 \)
 
 Program dibangun dari nol menggunakan Python, dan semua komponen GA diimplementasikan secara manual (tanpa library GA).
 
