@@ -17,7 +17,7 @@ Seluruh proses dibangun tanpa menggunakan library khusus seperti DEAP, PyGAD, dl
 Tugas ini bertujuan untuk meminimalkan fungsi dua variabel berikut dengan pendekatan *Genetic Algorithm (GA)*:
 
 \[
-f(x_1, x_2) = -\left(\sin(x_1) \cdot \cos(x_2) \cdot \tan(x_1 + x_2) + \frac{3}{4} \cdot \exp(1 - \sqrt{x_1^2})\right)
+f(x1, x2) = -\left(\sin(x_1) \cdot \cos(x2) \cdot \tan(x1 + x2) + \frac{3}{4} \cdot \exp(1 - \sqrt{x1^2})\right)
 \]
 
 Dengan domain:
@@ -48,14 +48,14 @@ Program dibangun dari nol menggunakan Python, dan semua komponen GA diimplementa
 ## ⚙️ Alur Proses GA
 
 1. Inisialisasi populasi acak.
-2. Decode kromosom biner ke real \(x_1\) dan \(x_2\).
+2. Decode kromosom biner ke real \(x1\) dan \(x2\).
 3. Evaluasi fitness setiap individu.
 4. Seleksi orang tua via turnamen.
 5. Crossover untuk menghasilkan offspring.
 6. Mutasi bit secara acak.
 7. Seleksi survivor dan generational replacement.
 8. Ulangi hingga generasi terakhir.
-9. Tampilkan kromosom terbaik dan nilai \(x_1\), \(x_2\), serta fitness-nya.
+9. Tampilkan kromosom terbaik dan nilai \(x1\), \(x2\), serta fitness-nya.
 
 ---
 
